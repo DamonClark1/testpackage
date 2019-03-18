@@ -55,7 +55,7 @@ def quick_sort(items):
                 less.append(x)
             elif x == pivot:
                 equal.append(x)
-            else x > pivot:
+            elif x > pivot:
                 greater.append(x)
 
         return quick_sort(less)+equal+quick_sort(greater)
